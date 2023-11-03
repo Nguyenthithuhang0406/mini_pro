@@ -8,6 +8,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 20px;
+
 }
 .product{
     display: flex;
@@ -57,15 +58,94 @@
     outline: none;
     cursor: pointer;
 }
-.anh2{
-    height: 400px;
-    width: 300px;
+
+.product-card{
+    padding:  0 20px;
 }
-.itemSlow{
-    height: 400px;
-    width: 300px;
+
+.card{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.card-img-top{
+    height: 289px;
+    width: 250px;
+}
 
+.customdot.slick-dots {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    list-style: none;
+    display: flex;
+    flex-direction: row; 
+    gap: 20px 0; 
+  }
+  .customdot .slick-dots button {
+    font-size: 0;
+    width: 11px;
+    height: 11px;
+    border-radius: 100rem;
+    border: none;
+    outline: none;
+    transition: all 0.5s linear;
+    color: #D8D8D8;
+  }
+  .customdot .slick-dots button:hover {
+    background-color: #D8D8D8;
+  }
+  .customdot .slick-active button {
+    background-color: white;
+    width: 30px;
+  }
+
+  .customdot{
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 46px);
+    list-style: none;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 33px;
+  }
+
+  .customdot button{
+    font-size: 0;
+    width: 11px;
+    height: 11px;
+    border-radius: 100rem;
+    border: none;
+    outline: none;
+    transition: all 0.5s linear;
+    color: #D8D8D8;
+  }
+
+  .customdot button:hover{
+    background-color: #D8D8D8;
+  }
+
+  .customdot .slick-active button{
+    background-color: #D8D8D8;
+  }
+
+  .customdot .slick-dots ul{
+    display: flex;
+  }
+
+  
